@@ -68,7 +68,7 @@ const Footer = () => {
             <span className="font-medium text-xs">Síganos</span>
 
             <div className="flex items-center justify-center gap-5 ml-1 m-0 p-0">
-              <Link href="https://www.facebook.com/bydpremiertijuana" target="_blank">
+              <Link href="https://www.facebook.com/profile.php?id=61568724350100" target="_blank">
                 <Image
                   src={facebookIcon}
                   alt="facebook icon"
@@ -86,7 +86,7 @@ const Footer = () => {
                   className="hover:opacity-100 opacity-40"
                 />
               </Link> */}
-              <Link href="https://www.instagram.com/byd.tijuana/" target="_blank">
+              <Link href="https://www.instagram.com/bydtijuana" target="_blank">
                 <Image
                   src={instagramIcon}
                   alt="instagram icon"

@@ -10,8 +10,8 @@ export const WhatsAppButton = () => {
     <Link
       href={
         pathName === "/post-venta"
-          ? "https://wa.link/8z0kl5"
-          : "https://wa.link/lwnbls"
+          ? "https://wa.link/imo6uw"
+          : "https://wa.link/imo6uw"
       }
       target="_blank"
       rel="noreferrer"
