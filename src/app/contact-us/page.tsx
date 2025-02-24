@@ -50,7 +50,7 @@ export default function ContactUsPage() {
                 max-img:mb-[7.777778vw]
             `}
           >
-            BYD - Premier
+            BYD - Tijuana
           </h3>
           <div
             className={`
@@ -77,9 +77,10 @@ export default function ContactUsPage() {
             Atención al Cliente: 663 430 7858
             <br />
             Localización: Tijuana, Baja California
+            <br />
+            Dirección: P.º de los Héroes 10493, Zona Urbana Rio Tijuana, 22010 Tijuana, B.C.
           </p>
         </div>
-
         <div
           className={`
                 flex-1
