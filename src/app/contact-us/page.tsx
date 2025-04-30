@@ -74,7 +74,7 @@ export default function ContactUsPage() {
                 max-img:text-[#4e5356]
             `}
           >
-            Atención al Cliente: 663 430 7858
+            Atención al Cliente: 664 210 8256
             <br />
             Localización: Tijuana, Baja California
             <br />
