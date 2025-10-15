@@ -1,11 +1,21 @@
+"use client";
 import React from "react";
 import type { PerformanceSection as TPerformanceSection } from "@/lib";
 import { ResponsiveImage } from "../ResponsiveImage";
 import { CountUp } from "../CountUp";
 import { AskQuoteForm } from "../AskQuoteForm";
+import { Button } from "../PrimaryButton";
 
 export const PerformanceSection = (props: { carInfo: TPerformanceSection }) => {
-  const { list, text, imageMobile, imageDesktop, quoteForm } = props.carInfo;
+  const {
+    list,
+    text,
+    imageMobile,
+    imageDesktop,
+    quoteForm,
+    buttons,
+    buttonsText,
+  } = props.carInfo;
 
   //TODO: add title
   return (
@@ -169,6 +179,47 @@ export const PerformanceSection = (props: { carInfo: TPerformanceSection }) => {
           </li>
         ))}
       </ul>
+
+      {/* Buttons */}
+      {buttons && buttonsText && (
+        <div
+          className={`
+            absolute
+            left-0
+            right-0
+            m-auto
+            bottom-[60px]
+            flex
+            justify-center
+            items-center
+            gap-4
+            
+            max-img:bottom-[8vw]
+            max-img:gap-2
+          `}
+        >
+          {buttonsText.map((button, index) => (
+            <Button
+              key={index}
+              onClick={() => window.open(button.link || "/", "_blank")}
+              className={`
+                min-w-[200px]
+                border border-white
+                bg-transparent
+                text-white
+                hover:bg-white
+                hover:text-black
+                
+                max-img:min-w-[150px]
+                max-img:py-2
+                max-img:text-sm
+              `}
+            >
+              {button.text}
+            </Button>
+          ))}
+        </div>
+      )}
 
       {/* Description */}
       <div

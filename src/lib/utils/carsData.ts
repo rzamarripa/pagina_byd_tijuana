@@ -63,8 +63,6 @@ import section1_m9_desktop from "@/assets/images/cars-page/m9/1-pc.jpg";
 import section1_m9_mobile from "@/assets/images/cars-page/m9/1-mob.jpg";
 import section2_m9_desktop from "@/assets/images/cars-page/m9/2-pc.jpg";
 import section2_m9_mobile from "@/assets/images/cars-page/m9/2-mob.jpg";
-import section3_m9_desktop from "@/assets/images/cars-page/m9/3-pc.jpg";
-import section3_m9_mobile from "@/assets/images/cars-page/m9/3-mob.jpg";
 import section4_m9_desktop from "@/assets/images/cars-page/m9/4-pc.jpg";
 import section4_m9_mobile from "@/assets/images/cars-page/m9/4-mob.jpg";
 import section4_m9_collapse1 from "@/assets/images/cars-page/m9/4.1-pc.jpg";
@@ -401,7 +399,7 @@ export const carsData: CarData[] = [
       buttons: false,
       collapse: false,
       imageDesktop: section1_sealion7_desktop,
-      imageMobile: false,
+      imageMobile: section1_sealion7_mobile,
       smallText:
         "Válido en la República Mexicana. Imágenes y videos son de carácter meramente ilustrativo.",
     },
@@ -448,7 +446,7 @@ export const carsData: CarData[] = [
           "BYD SEALION 7 EV redefine los estándares de diseño, tecnología y rendimiento. Combina un diseño aerodinámico y deportivo con tecnologías de vanguardia y una experiencia de conducción sostenible.",
         buttons: false,
         imageDesktop: section4_sealion7_desktop,
-        imageMobile: false,
+        imageMobile: section4_sealion7_mobile,
         collapse: true,
         collapseData: [
           {

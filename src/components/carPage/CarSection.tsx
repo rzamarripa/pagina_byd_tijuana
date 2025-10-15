@@ -31,9 +31,9 @@ export const CarSection = (props: { carInfo: SectionCarPage }) => {
   const isMobile = windowSize?.width ? windowSize.width <= 992 : false;
   const image = isMobile && imageMobile ? imageMobile : imageDesktop;
 
-  // @ts-ignore - Detectar si hay video
+  // @ts-expect-error - Detectar si hay video
   const isVideo = props.carInfo.isVideo;
-  // @ts-ignore - Obtener la ruta del video
+  // @ts-expect-error - Obtener la ruta del video
   const video = props.carInfo.video;
 
   return (
