@@ -1,6 +1,107 @@
 import { CarData } from "../types";
 import whiteBg from "@/assets/images/bg-white.jpg";
 
+// Sealion 7 EV
+import section1_sealion7_desktop from "@/assets/images/cars-page/sealion-7-ev/1-pc.jpg";
+import section1_sealion7_mobile from "@/assets/images/cars-page/sealion-7-ev/1-mob.jpg";
+import section2_sealion7_desktop from "@/assets/images/cars-page/sealion-7-ev/2-pc.jpg";
+import section2_sealion7_mobile from "@/assets/images/cars-page/sealion-7-ev/2-mob.jpg";
+import section3_sealion7_desktop from "@/assets/images/cars-page/sealion-7-ev/3-pc.jpg";
+import section3_sealion7_mobile from "@/assets/images/cars-page/sealion-7-ev/3-mob.jpg";
+import section4_sealion7_desktop from "@/assets/images/cars-page/sealion-7-ev/4-pc.jpg";
+import section4_sealion7_mobile from "@/assets/images/cars-page/sealion-7-ev/4-mob.jpg";
+import section5_sealion7_desktop from "@/assets/images/cars-page/sealion-7-ev/5-pc.jpg";
+import section5_sealion7_mobile from "@/assets/images/cars-page/sealion-7-ev/5-mob.jpg";
+import section6_sealion7_desktop from "@/assets/images/cars-page/sealion-7-ev/6-pc.jpg";
+import section6_sealion7_mobile from "@/assets/images/cars-page/sealion-7-ev/6-mob.jpg";
+import section7_sealion7_desktop from "@/assets/images/cars-page/sealion-7-ev/7-pc.jpg";
+import section7_sealion7_mobile from "@/assets/images/cars-page/sealion-7-ev/7-mob.jpg";
+import section9_sealion7_desktop from "@/assets/images/cars-page/sealion-7-ev/9-pc.jpg";
+import section9_sealion7_mobile from "@/assets/images/cars-page/sealion-7-ev/9-mob.jpg";
+import section10_sealion7_desktop from "@/assets/images/cars-page/sealion-7-ev/10-pc.jpg";
+import section10_sealion7_mobile from "@/assets/images/cars-page/sealion-7-ev/10-mob.jpg";
+
+import section4_sealion7_collapse1 from "@/assets/images/cars-page/sealion-7-ev/4.1-pc.jpg";
+import section4_sealion7_collapse1_mobile from "@/assets/images/cars-page/sealion-7-ev/4.1-mob.jpg";
+import section4_sealion7_collapse2 from "@/assets/images/cars-page/sealion-7-ev/4.2-pc.jpg";
+import section4_sealion7_collapse2_mobile from "@/assets/images/cars-page/sealion-7-ev/4.2-mob.jpg";
+import section4_sealion7_collapse3 from "@/assets/images/cars-page/sealion-7-ev/4.3-pc.jpg";
+import section4_sealion7_collapse3_mobile from "@/assets/images/cars-page/sealion-7-ev/4.3-mob.jpg";
+import section4_sealion7_collapse4 from "@/assets/images/cars-page/sealion-7-ev/4.4-pc.jpg";
+import section4_sealion7_collapse4_mobile from "@/assets/images/cars-page/sealion-7-ev/4.4-mob.jpg";
+import section4_sealion7_collapse5 from "@/assets/images/cars-page/sealion-7-ev/4.5-pc.jpg";
+import section4_sealion7_collapse5_mobile from "@/assets/images/cars-page/sealion-7-ev/4.5-mob.jpg";
+import section5_sealion7_collapse1 from "@/assets/images/cars-page/sealion-7-ev/5.1-pc.jpg";
+import section5_sealion7_collapse1_mobile from "@/assets/images/cars-page/sealion-7-ev/5.1-mob.jpg";
+import section5_sealion7_collapse2 from "@/assets/images/cars-page/sealion-7-ev/5.2-pc.jpg";
+import section5_sealion7_collapse2_mobile from "@/assets/images/cars-page/sealion-7-ev/5.2-mob.jpg";
+import section5_sealion7_collapse3 from "@/assets/images/cars-page/sealion-7-ev/5.3-pc.jpg";
+import section5_sealion7_collapse3_mobile from "@/assets/images/cars-page/sealion-7-ev/5.3-mob.jpg";
+import section5_sealion7_collapse4 from "@/assets/images/cars-page/sealion-7-ev/5.4-pc.jpg";
+import section5_sealion7_collapse4_mobile from "@/assets/images/cars-page/sealion-7-ev/5.4-mob.jpg";
+import section5_sealion7_collapse5 from "@/assets/images/cars-page/sealion-7-ev/5.5-pc.jpg";
+import section5_sealion7_collapse5_mobile from "@/assets/images/cars-page/sealion-7-ev/5.5-mob.jpg";
+import section6_sealion7_collapse1 from "@/assets/images/cars-page/sealion-7-ev/6.1-pc.jpg";
+import section6_sealion7_collapse1_mobile from "@/assets/images/cars-page/sealion-7-ev/6.1-mob.jpg";
+import section6_sealion7_collapse2 from "@/assets/images/cars-page/sealion-7-ev/6.2-pc.jpg";
+import section6_sealion7_collapse2_mobile from "@/assets/images/cars-page/sealion-7-ev/6.2-mob.jpg";
+import section6_sealion7_collapse3 from "@/assets/images/cars-page/sealion-7-ev/6.3-pc.jpg";
+import section6_sealion7_collapse3_mobile from "@/assets/images/cars-page/sealion-7-ev/6.3-mob.jpg";
+import section6_sealion7_collapse4 from "@/assets/images/cars-page/sealion-7-ev/6.4-pc.jpg";
+import section6_sealion7_collapse4_mobile from "@/assets/images/cars-page/sealion-7-ev/6.4-mob.jpg";
+import section7_sealion7_collapse1 from "@/assets/images/cars-page/sealion-7-ev/7.1-pc.jpg";
+import section7_sealion7_collapse1_mobile from "@/assets/images/cars-page/sealion-7-ev/7.1-mob.jpg";
+import section7_sealion7_collapse2 from "@/assets/images/cars-page/sealion-7-ev/7.2-pc.jpg";
+import section7_sealion7_collapse2_mobile from "@/assets/images/cars-page/sealion-7-ev/7.2-mob.jpg";
+import section7_sealion7_collapse3 from "@/assets/images/cars-page/sealion-7-ev/7.3-pc.jpg";
+import section7_sealion7_collapse3_mobile from "@/assets/images/cars-page/sealion-7-ev/7.3-mob.jpg";
+import section7_sealion7_collapse4 from "@/assets/images/cars-page/sealion-7-ev/7.4-pc.jpg";
+import section7_sealion7_collapse4_mobile from "@/assets/images/cars-page/sealion-7-ev/7.4-mob.jpg";
+
+// M9
+import section1_m9_desktop from "@/assets/images/cars-page/m9/1-pc.jpg";
+import section1_m9_mobile from "@/assets/images/cars-page/m9/1-mob.jpg";
+import section2_m9_desktop from "@/assets/images/cars-page/m9/2-pc.jpg";
+import section2_m9_mobile from "@/assets/images/cars-page/m9/2-mob.jpg";
+import section3_m9_desktop from "@/assets/images/cars-page/m9/3-pc.jpg";
+import section3_m9_mobile from "@/assets/images/cars-page/m9/3-mob.jpg";
+import section4_m9_desktop from "@/assets/images/cars-page/m9/4-pc.jpg";
+import section4_m9_mobile from "@/assets/images/cars-page/m9/4-mob.jpg";
+import section4_m9_collapse1 from "@/assets/images/cars-page/m9/4.1-pc.jpg";
+import section4_m9_collapse1_mobile from "@/assets/images/cars-page/m9/4.1-mob.jpg";
+import section4_m9_collapse2 from "@/assets/images/cars-page/m9/4.2-pc.jpg";
+import section4_m9_collapse2_mobile from "@/assets/images/cars-page/m9/4.2-mob.jpg";
+import section4_m9_collapse3 from "@/assets/images/cars-page/m9/4.3-pc.jpg";
+import section4_m9_collapse3_mobile from "@/assets/images/cars-page/m9/4.3-mob.jpg";
+import section4_m9_collapse4 from "@/assets/images/cars-page/m9/4.4-pc.jpg";
+import section4_m9_collapse4_mobile from "@/assets/images/cars-page/m9/4.4-mob.jpg";
+import section4_m9_collapse5 from "@/assets/images/cars-page/m9/4.5-pc.jpg";
+import section4_m9_collapse5_mobile from "@/assets/images/cars-page/m9/4.5-mob.jpg";
+import section4_m9_collapse6 from "@/assets/images/cars-page/m9/4.6-pc.jpg";
+import section4_m9_collapse6_mobile from "@/assets/images/cars-page/m9/4.6-mob.jpg";
+import section4_m9_collapse7 from "@/assets/images/cars-page/m9/4.7-pc.jpg";
+import section4_m9_collapse7_mobile from "@/assets/images/cars-page/m9/4.7-mob.jpg";
+import section4_m9_collapse8 from "@/assets/images/cars-page/m9/4.8-pc.jpg";
+import section4_m9_collapse8_mobile from "@/assets/images/cars-page/m9/4.8-mob.jpg";
+import section5_m9_desktop from "@/assets/images/cars-page/m9/5-pc.jpg";
+import section5_m9_mobile from "@/assets/images/cars-page/m9/5-mob.jpg";
+import section5_m9_collapse1 from "@/assets/images/cars-page/m9/5.1-pc.jpg";
+import section5_m9_collapse1_mobile from "@/assets/images/cars-page/m9/5.1-mob.jpg";
+import section5_m9_collapse2 from "@/assets/images/cars-page/m9/5.2-pc.jpg";
+import section5_m9_collapse2_mobile from "@/assets/images/cars-page/m9/5.2-mob.jpg";
+import section5_m9_collapse3 from "@/assets/images/cars-page/m9/5.3-pc.jpg";
+import section5_m9_collapse3_mobile from "@/assets/images/cars-page/m9/5.3-mob.jpg";
+import section5_m9_collapse4 from "@/assets/images/cars-page/m9/5.4-pc.jpg";
+import section5_m9_collapse4_mobile from "@/assets/images/cars-page/m9/5.4-mob.jpg";
+import section5_m9_collapse5 from "@/assets/images/cars-page/m9/5.5-pc.jpg";
+import section5_m9_collapse5_mobile from "@/assets/images/cars-page/m9/5.5-mob.jpg";
+import section5_m9_collapse6 from "@/assets/images/cars-page/m9/5.6-pc.jpg";
+import section5_m9_collapse6_mobile from "@/assets/images/cars-page/m9/5.6-mob.jpg";
+import section5_m9_collapse7 from "@/assets/images/cars-page/m9/5.7-pc.jpg";
+import section5_m9_collapse7_mobile from "@/assets/images/cars-page/m9/5.7-mob.jpg";
+import section5_m9_collapse8 from "@/assets/images/cars-page/m9/5.8-pc.jpg";
+import section5_m9_collapse8_mobile from "@/assets/images/cars-page/m9/5.8-mob.jpg";
+
 // Han
 import performance_han_desktop from "@/assets/images/cars-page/han/rendimiento-desktop.jpg";
 import performance_han_mobile from "@/assets/images/cars-page/han/rendimiento-mob.jpg";
@@ -286,6 +387,476 @@ import section7_song_pro_mobile from "@/assets/images/cars-page/song-pro/7-mob.j
 
 export const carsData: CarData[] = [
   {
+    id: "sealion-7-ev",
+    title: "BYD SEALION 7 EV",
+    metadata: {
+      title: "Innovador, Confiable y Eficiente | BYD GRUPO PREMIER",
+      description: "Innovador, Confiable y Eficiente | BYD GRUPO PREMIER",
+    },
+    backgroundVideoSection: false,
+    preSection: {
+      quoteForm: true,
+      title: "BYD SEALION 7",
+      description: "SUV 100% eléctrico de alto rendimiento",
+      buttons: false,
+      collapse: false,
+      imageDesktop: section1_sealion7_desktop,
+      imageMobile: false,
+      smallText:
+        "Válido en la República Mexicana. Imágenes y videos son de carácter meramente ilustrativo.",
+    },
+    performanceSection: {
+      buttons: false,
+      list: [
+        {
+          titleNumbers: 456,
+          title: " km",
+          description: "Autonomía WLTC",
+        },
+        {
+          titleNumbers: 215,
+          title: " km/h",
+          description: "Velocidad Máxima",
+        },
+        {
+          title: "4.5s",
+          description: "Aceleración 0-100 km/h",
+        },
+        {
+          title: "Cell to Body",
+          description: "Tecnología innovadora, segura y estable",
+        },
+      ],
+      text: "",
+      imageMobile: section2_sealion7_mobile,
+      imageDesktop: section2_sealion7_desktop,
+      title: "Rendimiento Excepcional, Diseño Sofisticado",
+    },
+    sections: [
+      {
+        title: "Poder Eléctrico, Lujo Absoluto",
+        description:
+          "Combina las proporciones robustas de un SUV de lujo con las líneas estilizadas y deportivas de un coupé.",
+        buttons: false,
+        collapse: false,
+        imageDesktop: section3_sealion7_desktop,
+        imageMobile: section3_sealion7_mobile,
+      },
+      {
+        title: "Eléctrico Por Dentro, Exclusivo Por Fuera",
+        description:
+          "BYD SEALION 7 EV redefine los estándares de diseño, tecnología y rendimiento. Combina un diseño aerodinámico y deportivo con tecnologías de vanguardia y una experiencia de conducción sostenible.",
+        buttons: false,
+        imageDesktop: section4_sealion7_desktop,
+        imageMobile: false,
+        collapse: true,
+        collapseData: [
+          {
+            title: "Diseño Frontal Ocean X Face",
+            description:
+              "El diseño Ocean X Face se inspira en la fluidez, elegancia y fuerza del océano, la forma abierta de la estructura X unifica elementos que crean una sensación de dinamismo y modernidad, al tiempo que mejora la extensión visual y crea una apariencia más amplia.",
+            imagePosition: "left",
+            imageDesktop: section4_sealion7_collapse1,
+            imageMobile: section4_sealion7_collapse1_mobile,
+          },
+          {
+            title: "Faros delanteros flotantes dobles en forma de U",
+            description:
+              "Inspirados en el océano brinda una sensación de elegancia, ofreciendo una apariencia esbelta y tecnológicamente avanzada y resaltando los detalles refinados de BYD SEALION 7 EV al mismo tiempo que hacen eco de las formas de los espejos laterales y las luces direccionales.",
+            imagePosition: "right",
+            imageDesktop: section4_sealion7_collapse2,
+            imageMobile: section4_sealion7_collapse2_mobile,
+          },
+          {
+            title: 'Rines de 20"',
+            description:
+              "Rines de 20 pulgadas con llantas Michelin Pilot Sport EV se complementan con calipers de freno color rojo, creando un llamativo contraste de color que acentúa la personalidad y el estilo único de BYD SEALION 7 EV.",
+            imagePosition: "left",
+            imageDesktop: section4_sealion7_collapse3,
+            imageMobile: section4_sealion7_collapse3_mobile,
+          },
+          {
+            title: "Luz trasera unificada",
+            description:
+              "Inspiradas en las olas rompientes, presentan un efecto degradado con puntos de luz cada vez más pequeños y tiras delgadas que conectan ambos lados, creando una apariencia perfecta, moderna y tecnológicamente avanzada.",
+            imagePosition: "right",
+            imageDesktop: section4_sealion7_collapse4,
+            imageMobile: section4_sealion7_collapse4_mobile,
+          },
+          {
+            title: "Cajuela eléctrica e inteligente",
+            description:
+              "Abre la puerta de tu cajuela con solo deslizar tu pie para facilitar la carga y descarga de tu equipaje, además con su sistema inteligente anti-pellizco mejora la seguridad y la comodidad en tu vida diaria.",
+            imagePosition: "left",
+            imageDesktop: section4_sealion7_collapse5,
+            imageMobile: section4_sealion7_collapse5_mobile,
+          },
+        ],
+      },
+      {
+        title: "Cabina Inteligente y Cómoda",
+        description:
+          "El diseño interior fusiona perfectamente la personalidad con la practicidad.",
+        buttons: false,
+        imageDesktop: section5_sealion7_desktop,
+        imageMobile: section5_sealion7_mobile,
+        collapse: true,
+        collapseData: [
+          {
+            title: "El Lujo de un Espacio Silencioso",
+            description:
+              "Disfruta de la paz y tranquilidad dentro de la cabina silenciosa del BYD SEALION 7 EV, diseñada con precisión para reducir el ruido, las vibraciones y la dureza. Este excelente SUV eléctrico crea un ambiente sereno, permitiéndote concentrarte en lo que realmente importa.",
+            imagePosition: "left",
+            imageDesktop: section5_sealion7_collapse1,
+            imageMobile: section5_sealion7_collapse1_mobile,
+          },
+          {
+            title: "Experiencia de audio inmersiva",
+            description:
+              "Equipado con un sistema de sonido Dynaudio de 12 bocinas de calidad HiFi, ofreciendo una experiencia de audio envolvente en diferentes escenarios de conducción.",
+            imagePosition: "right",
+            imageDesktop: section5_sealion7_collapse2,
+            imageMobile: section5_sealion7_collapse2_mobile,
+          },
+          {
+            title: "Luz ambiental multicolor",
+            description:
+              "Con iluminación ambiental estilo cascada en los paneles de las puertas y la iluminación suspendida del vidrio del tablero que se sincroniza con el ritmo de la música del sistema de sonido Dynaudio, ofreciendo una experiencia de conducción increíble tanto visual como acústica.",
+            imagePosition: "left",
+            imageDesktop: section5_sealion7_collapse3,
+            imageMobile: section5_sealion7_collapse3_mobile,
+          },
+          {
+            title: "Interior Sofisticado de Alta Calidad",
+            description:
+              "Decorado con asientos acolchados en forma de ondas de agua y costuras dobles, BYD SEALION 7 EV realza el interior de alta calidad y refinado. Las perforaciones en el cojín y respaldo del asiento mejoran la ventilación, ofreciéndote una sensación fresca.",
+            imagePosition: "right",
+            imageDesktop: section5_sealion7_collapse4,
+            imageMobile: section5_sealion7_collapse4_mobile,
+          },
+          {
+            title: "Techo panorámico con cortinilla eléctrica",
+            description:
+              "El techo panorámico ilumina la cabina, ofreciendo una sensación de amplitud y aventura para todos los pasajeros. Su amplio cristal con filtro de protección UV proporciona vistas panorámicas, brindando placer en cada viaje.",
+            imagePosition: "left",
+            imageDesktop: section5_sealion7_collapse5,
+            imageMobile: section5_sealion7_collapse5_mobile,
+          },
+        ],
+      },
+      {
+        title: "Viaje Ultra Seguro",
+        description: "Tecnologías avanzadas para máxima seguridad.",
+        buttons: false,
+        imageDesktop: section6_sealion7_desktop,
+        imageMobile: section6_sealion7_mobile,
+        collapse: true,
+        collapseData: [
+          {
+            title: "Batería Blade",
+            description:
+              "La batería Blade del BYD SEALION 7 EV utiliza tecnología de litio, fierro y fosfato para una mayor seguridad. Ha superado una serie de pruebas extremas en condiciones rigurosas, lo que la convierte en una de las baterías más seguras y duraderas del mundo.",
+            imagePosition: "left",
+            imageDesktop: section6_sealion7_collapse1,
+            imageMobile: section6_sealion7_collapse1_mobile,
+          },
+          {
+            title: "Tecnología CTB (Cell to Body)",
+            description:
+              "El sistema CTB integra la batería dentro del chasis, por lo tanto funciona como fuente de energía y parte integral de la estructura del vehículo, proporcionando al cuerpo una rigidez torsional de más de 40,000 Nm/°, lo que mejora la maniobrabilidad, la seguridad y la comodidad.",
+            imagePosition: "right",
+            imageDesktop: section6_sealion7_collapse2,
+            imageMobile: section6_sealion7_collapse2_mobile,
+          },
+          {
+            title: "Carrocería híbrida de acero y aluminio de alta resistencia",
+            description:
+              "La carrocería está compuesta por un 81.6% de acero de alta resistencia, lo que reduce significativamente el impacto de las colisiones, mejora la fuerza de la carrocería y garantiza la seguridad de los pasajeros.",
+            imagePosition: "left",
+            imageDesktop: section6_sealion7_collapse3,
+            imageMobile: section6_sealion7_collapse3_mobile,
+          },
+          {
+            title: "Seguridad confiable con 9 bolsas de aire",
+            description:
+              "Cuenta con bolsa de aire para el conductor y el pasajero delantero, bolsa de aire central delantera y bolsas de aire laterales tipo cortina integradas para las filas delantera y trasera, brindando una protección completa para la seguridad de los pasajeros.",
+            imagePosition: "right",
+            imageDesktop: section6_sealion7_collapse4,
+            imageMobile: section6_sealion7_collapse4_mobile,
+          },
+        ],
+      },
+      {
+        title: "Experiencia de viaje eficiente",
+        description:
+          "El BYD SEALION 7 EV lleva el rendimiento al siguiente nivel con un sistema de control eléctrico de 1200V de carburo de silicio y un motor de alta velocidad de 23,000 rpm.",
+        buttons: false,
+        imageDesktop: section7_sealion7_desktop,
+        imageMobile: section7_sealion7_mobile,
+        collapse: true,
+        collapseData: [
+          {
+            title: "Motor de alta velocidad a 23,000 rpm",
+            description:
+              "El motor del BYD SEALION 7 EV ofrece un rendimiento potente. Con una velocidad de motor líder en la industria de hasta 23,000 rpm, el BYD SEALION 7 EV alcanza una velocidad máxima de 215 km/h. La aceleración de 0 a 100 km/h en solo 4.5 segundos proporciona una experiencia de conducción dinámica y agradable.",
+            imagePosition: "left",
+            imageDesktop: section7_sealion7_collapse1,
+            imageMobile: section7_sealion7_collapse1_mobile,
+          },
+          {
+            title: "Tren motriz 8 en 1",
+            description:
+              "La avanzada integración vertical de BYD combina 8 componentes clave, incluyendo VCU, BMS, MCU, PDU, controlador DC-DC, cargador a bordo, motor de tracción y transmisión, siendo este el primer sistema de tren motriz eléctrico 8 en 1 del mundo en producción masiva, optimizando en gran medida la utilización del espacio y la eficiencia energética.",
+            imagePosition: "right",
+            imageDesktop: section7_sealion7_collapse2,
+            imageMobile: section7_sealion7_collapse2_mobile,
+          },
+          {
+            title: "Sistema de suspensión avanzado",
+            description:
+              "El BYD SEALION 7 EV cuenta con suspensión delantera de doble horquilla y trasera multibrazo con amortiguadores FSD, adaptándose a las condiciones de la carretera para una conducción suave y estable. Minimiza el movimiento de la carrocería y mejora el confort y el control, cuenta con tecnología AWD iTAC garantizando una conducción segura y confiable.",
+            imagePosition: "left",
+            imageDesktop: section7_sealion7_collapse3,
+            imageMobile: section7_sealion7_collapse3_mobile,
+          },
+          {
+            title: "Sistema BYD de Conducción Inteligente",
+            description:
+              "Equipado con el avanzado sistema ADAS de BYD y cámaras panorámicas de 360°, haciendo que la conducción sea libre de estrés. Este sistema inteligente monitorea el entorno, se adapta a las condiciones y mejora la seguridad, garantizando un viaje suave y placentero.",
+            imagePosition: "right",
+            imageDesktop: section7_sealion7_collapse4,
+            imageMobile: section7_sealion7_collapse4_mobile,
+          },
+        ],
+      },
+      {
+        title: "Sistema iTAC (Control de Adaptación de Torque Inteligente).",
+        description: "",
+        buttons: false,
+        imageDesktop: whiteBg,
+        imageMobile: false,
+        collapse: false,
+        flex: true,
+        flexData: {
+          title: "Sistema de Control de Freno",
+          description: [
+            "El BYD SEALION 7 EV lleva el rendimiento al siguiente nivel con su avanzada tecnología iTAC.\n",
+            "Con iTAC, la restauración de la dinámica del vehículo ha evolucionado más allá de los métodos tradicionales de administración de potencia. En su lugar, asigna de forma inteligente el torque, utilizando el cambio, la reducción y la salida adecuada del mismo.",
+            "Este sistema avanzado minimiza o elimina de manera eficiente el derrape, desbloqueando toda la potencia del vehículo.",
+            "No solo mejora la seguridad, sino que también eleva la comodidad de manejo general, lo que garantiza una experiencia de conducción suave y segura.",
+          ],
+          video: "/videos/section_ITAC-video.mp4",
+          mediaPosition: "right",
+        },
+      },
+      {
+        title: "Revolucionaria Plataforma-E 3.0",
+        description:
+          "Impulsado por la tecnología e-Platform 3.0 de BYD, el BYD SEALION 7 EV garantiza una experiencia de conducción confiable, conveniente y respetuosa con el medio ambiente.",
+        buttons: false,
+        imageDesktop: section9_sealion7_desktop,
+        imageMobile: section9_sealion7_mobile,
+        collapse: false,
+        textBlack: true,
+      },
+    ],
+    technicalData: {
+      techImageDesktop: section10_sealion7_desktop,
+      techImageMobile: section10_sealion7_mobile,
+      buttonUrl: "/files/ficha-tecnica-sealion-7-ev.pdf",
+    },
+  },
+  {
+    id: "m9",
+    title: "BYD M9",
+
+    metadata: {
+      title: "Innovador, Confiable y Eficiente | BYD GRUPO PREMIER",
+      description: "Innovador, Confiable y Eficiente | BYD GRUPO PREMIER",
+    },
+    preSection: {
+      quoteForm: true,
+      title: "BYD M9",
+      description: "INNOVACIÓN QUE ACOMPAÑA A TU FAMILIA",
+      buttons: false,
+      collapse: false,
+      imageDesktop: section1_m9_desktop,
+      imageMobile: section1_m9_mobile,
+      smallText:
+        "Imágenes de carácter meramente ilustrativo. Consulta nivel de equipamiento y disponibilidad.",
+    },
+    performanceSection: {
+      list: [],
+      text: "",
+      imageMobile: section2_m9_mobile,
+      imageDesktop: section2_m9_desktop,
+      title: "TECNOLOGÍA DMi EN LA VAN MÁS INTELIGENTE",
+      buttons: true,
+      buttonsText: [
+        { text: "Ficha Técnica", link: "/files/ficha-tecnica-m9.pdf" },
+      ],
+    },
+    backgroundVideoSection: false,
+    sections: [
+      {
+        title: "",
+        description: "",
+        buttons: false,
+        isVideo: true,
+        video: "/videos/m9.mp4",
+      },
+      {
+        title: "",
+        description:
+          "* *Imágenes de uso meramente ilustrativo. Consulta nivel de equipamiento y disponibilidad.",
+        buttons: false,
+        collapse: true,
+        imageDesktop: section4_m9_desktop,
+        imageMobile: section4_m9_mobile,
+        collapseData: [
+          {
+            title: "DISEÑO FRONTAL PODEROSO",
+            description:
+              "La rejilla tipo armadura se extiende hacia afuera en forma de V, transmitiendo una sensación de poder y elegancia.",
+            imagePosition: "left",
+            imageDesktop: section4_m9_collapse1,
+            imageMobile: section4_m9_collapse1_mobile,
+          },
+          {
+            title: "LUZ TRASERA UNIFICADA CON DISEÑO DE INFINITO",
+            description:
+              "Nuevas luces traseras inspiradas en el infinito, que emulan un símbolo de suerte y prosperidad.",
+            imagePosition: "right",
+            imageDesktop: section4_m9_collapse2,
+            imageMobile: section4_m9_collapse2_mobile,
+          },
+          {
+            title: "SILUETA ​​ELEGANTE",
+            description:
+              "Las líneas del cuerpo simulan la forma de una flecha, dando una impresión visual elegante, suave y delicada.",
+            imagePosition: "left",
+            imageDesktop: section4_m9_collapse3,
+            imageMobile: section4_m9_collapse3_mobile,
+          },
+          {
+            title: "RINES DE ALEACIÓN DE ALUMINIO",
+            description:
+              "El M9 incorpora un diseño vanguardista, inspirado en un escudo redondo que combina estilo y tecnología para brindarte máxima seguridad.",
+            imagePosition: "right",
+            imageDesktop: section4_m9_collapse4,
+            imageMobile: section4_m9_collapse4_mobile,
+          },
+          {
+            title: "TRES FILAS, ESPACIO PARA TODOS",
+            description:
+              "Pensado para la vida en familia, el M9 ofrece un interior amplio y confortable. Con capacidad hasta para 7 pasajeros. Disfruta de un viaje más seguro, entretenido y placentero.",
+            imagePosition: "left",
+            imageDesktop: section4_m9_collapse5,
+            imageMobile: section4_m9_collapse5_mobile,
+          },
+          {
+            title: "CAJUELA AMPLIA HASTA 2036 LITROS*",
+            description:
+              "Capacidad para 4 maletas de 24 pulgadas y 2 de 20 pulgadas. Con una cajuela versátil y una distribución inteligente del espacio, tendrás lugar de sobra para equipaje, juguetes, artículos deportivos, compras y todo lo que tu familia necesite.",
+            imagePosition: "right",
+            imageDesktop: section4_m9_collapse6,
+            imageMobile: section4_m9_collapse6_mobile,
+          },
+          {
+            title: "CABINA ENVOLVENTE",
+            description:
+              "Equipado con tecnología de vanguardia, la cabina ofrece una conectividad intuitiva, sistema de asistencia inteligente “Hi BYD” y una atmósfera diseñada en el confort en cada trayecto, sin importar la distancia.",
+            imagePosition: "left",
+            imageDesktop: section4_m9_collapse7,
+            imageMobile: section4_m9_collapse7_mobile,
+          },
+          {
+            title: "PALANCA DE CAMBIOS MONTADA EN LA COLUMNA",
+            description:
+              "Gracias a su palanca de cambios integrada en la columna, el M9 no solo ofrece un control preciso y cómodo, sino que también maximiza el espacio de la consola central.",
+            imagePosition: "right",
+            imageDesktop: section4_m9_collapse8,
+            imageMobile: section4_m9_collapse8_mobile,
+          },
+        ],
+      },
+      {
+        title: "",
+        description: "",
+        buttons: false,
+        imageDesktop: section5_m9_desktop,
+        imageMobile: section5_m9_mobile,
+        collapse: true,
+        collapseData: [
+          {
+            title: "SISTEMA DE CABINA INTELIGENTE BYD 3D",
+            description:
+              "Transforma tu experiencia de conducción. Con Apple CarPlay y Android Auto, accede a tus apps favoritas directamente desde la pantalla. Disfruta de la función de pantalla dividida para usar varias aplicaciones al mismo tiempo y modelado 3D para controlar la interacción con tu auto.",
+            imagePosition: "left",
+            imageDesktop: section5_m9_collapse1,
+            imageMobile: section5_m9_collapse1_mobile,
+          },
+          {
+            title: "BOLSAS DE AIRE ENVOLVENTE",
+            description:
+              "6 Bolsa de aire: Frontales para el conductor, pasajero delantero, laterales delanteras, de cortina laterales delanteros y traseros.",
+            imagePosition: "right",
+            imageDesktop: section5_m9_collapse2,
+            imageMobile: section5_m9_collapse2_mobile,
+          },
+          {
+            title: "ESTRUCTURA DE CUERPO DE ACERO DE ALTA RESISTENCIA",
+            description:
+              "Con un 79% de su estructura fabricada en acero de alta resistencia, el M9 te ofrece una combinación inigualable de seguridad y durabilidad.",
+            imagePosition: "left",
+            imageDesktop: section5_m9_collapse3,
+            imageMobile: section5_m9_collapse3_mobile,
+          },
+          {
+            title: "PRECISIÓN Y CONTROL AL VOLANTE",
+            description:
+              "Gracias a su dirección de precisión R-EPS y un radio de vuelta de 5.7 metros, el M9 se destaca por su maniobrabilidad superior, ofreciéndote el mejor coeficiente de arrastre en su categoría. Con esta tecnología, disfrutarás de una conducción ágil y sin esfuerzo, incluso en los espacios más reducidos.",
+            imagePosition: "right",
+            imageDesktop: section5_m9_collapse4,
+            imageMobile: section5_m9_collapse4_mobile,
+          },
+          {
+            title: "TECNOLOGÍA DMi",
+            description:
+              "BYD M9 DMi te brinda una experiencia de vida como vehículo eléctrico para trayectos de ciudad y la seguridad de un tanque de gasolina para darte tranquilidad en viajes largos de carretera, puedes recorrer hasta 95 km NEDC en modo 100% eléctrico y 945 km NEDC en modo híbrido, con ultra bajo consumo de combustible: 17.8 km/l NEDC.",
+            imagePosition: "left",
+            imageDesktop: section5_m9_collapse5,
+            imageMobile: section5_m9_collapse5_mobile,
+          },
+          {
+            title: "MOTOR 1.5T DE ALTA EFICIENCIA",
+            description:
+              "Incorpora un motor 1.5T de última generación, desarrollado específicamente para sistemas híbridos enchufables. Gracias a su eficiencia térmica líder en su clase y un torque de 225 N·m, ofrece una respuesta potente y un consumo optimizado. Este motor no solo mejora el rendimiento y la aceleración, sino que también garantiza una conducción más suave, eficiente y amigable con el medio ambiente.",
+            imagePosition: "right",
+            imageDesktop: section5_m9_collapse6,
+            imageMobile: section5_m9_collapse6_mobile,
+          },
+          {
+            title: "BATERÍA BLADE",
+            description:
+              "Cuenta con la innovadora batería Blade de BYD, reconocida por su alta densidad energética, durabilidad y seguridad líder en la industria. Gracias a su diseño exclusivo, la batría Blade ofrece una mayor resistencia al calor y a impactos, al mismo tiempo que mejora la autonomía y la eficiencia del vehículo.",
+            imagePosition: "left",
+            imageDesktop: section5_m9_collapse7,
+            imageMobile: section5_m9_collapse7_mobile,
+          },
+          {
+            title: "ESTACIÓN DE CARGA VTOL",
+            description:
+              "El M9 va más allá de ser un simple vehículo: es una estación de energía sobre ruedas, ideal para experiencias al aire libre. Ya sea para cocinar en la naturaleza, iluminar la noche, disfrutar de una película bajo las estrellas o incluso cargar dispositivos en situaciones de emergencia.",
+            imagePosition: "right",
+            imageDesktop: section5_m9_collapse8,
+            imageMobile: section5_m9_collapse8_mobile,
+          },
+        ],
+      },
+    ],
+  },
+  {
     id: "han",
     title: "BYD HAN",
     metadata: {
@@ -299,6 +870,7 @@ export const carsData: CarData[] = [
       buttons: false,
     },
     performanceSection: {
+      buttons: false,
       list: [
         {
           title: "s",
@@ -593,7 +1165,7 @@ export const carsData: CarData[] = [
       techImageDesktop: section5_tang_desktop,
       techImageMobile: section5_tang_mobile,
       buttonUrl: "/files/ficha-tecnica-tang.pdf",
-      title: "TANG EV"
+      title: "TANG EV",
     },
   },
   {
@@ -611,6 +1183,7 @@ export const carsData: CarData[] = [
       buttons: false,
     },
     performanceSection: {
+      buttons: false,
       list: [
         { title: " Km", titleNumbers: 480, description: "Autonomía (NEDC)" },
         {
@@ -985,6 +1558,7 @@ export const carsData: CarData[] = [
       imageMobile: section1_dolphin_mini_mobile,
     },
     performanceSection: {
+      buttons: false,
       list: [
         {
           title: "Batería Blade",
@@ -1025,9 +1599,10 @@ export const carsData: CarData[] = [
         collapse: true,
         collapseData: [
           {
-            title: 'Decoración del pilar C "Ice Crystal Frost" y luces traseras LED de ancho completo "Ice Crystal Frost"',
+            title:
+              'Decoración del pilar C "Ice Crystal Frost" y luces traseras LED de ancho completo "Ice Crystal Frost"',
             description:
-              'El pilar C del BYD DOLPHIN MINI presenta el elemento de diseño “Ice Crystal Frost”. Sus detalles de colores brillantes dispuestos en una matriz de puntos brindan a las personas una sensación de imaginación infinita.',
+              "El pilar C del BYD DOLPHIN MINI presenta el elemento de diseño “Ice Crystal Frost”. Sus detalles de colores brillantes dispuestos en una matriz de puntos brindan a las personas una sensación de imaginación infinita.",
             imagePosition: "left",
             imageDesktop: section4_dolphin_mini_collapse1,
             imageMobile: false,
@@ -1266,6 +1841,7 @@ export const carsData: CarData[] = [
         "Válido en la República Mexicana. Imágenes y videos son de carácter meramente ilustrativo.",
     },
     performanceSection: {
+      buttons: false,
       list: [
         {
           titleNumbers: 1175,
@@ -1421,6 +1997,7 @@ export const carsData: CarData[] = [
       buttons: false,
     },
     performanceSection: {
+      buttons: false,
       list: [
         { title: "km", titleNumbers: 1105, description: "Autonomía combinada" },
         {
@@ -1620,6 +2197,7 @@ export const carsData: CarData[] = [
       buttons: false,
     },
     performanceSection: {
+      buttons: false,
       list: [
         {
           title: "DMO",
@@ -1950,6 +2528,7 @@ export const carsData: CarData[] = [
       quoteForm: true,
     },
     performanceSection: {
+      buttons: false,
       list: [
         {
           titleNumbers: 1001,

@@ -45,7 +45,7 @@ export default function PostVentaPage() {
                 max-3xl:text-[32px]
               `}
             >
-              Único taller especializado BYD
+              TALLER CERTIFICADO BYD
             </h2>
           </div>
 

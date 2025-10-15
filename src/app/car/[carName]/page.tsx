@@ -42,16 +42,14 @@ const CarPage = ({ params: { carName } }: CarPageProps) => {
           name={car.backgroundVideoSection.title || car.title}
         />
       )}
-
       {car?.preSection && <CarSection carInfo={car.preSection} />}
-
       <PerformanceSection carInfo={car.performanceSection} />
-
       {car.sections.map((section, index) => (
         <CarSection key={index} carInfo={section} />
       ))}
-
-      <TechnicalFile carInfo={car.technicalData} title={car.title} />
+      {car.technicalData && (
+        <TechnicalFile carInfo={car.technicalData} title={car.title} />
+      )}{" "}
     </main>
   );
 };

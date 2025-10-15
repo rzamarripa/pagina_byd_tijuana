@@ -16,11 +16,11 @@ type FormData = {
 };
 
 const options = [
+  "BYD SEALION 7",
+  "BYD M9",
   "BYD HAN",
   "BYD TANG",
-  "YUAN PLUS EV",
   "BYD SEAL",
-  "BYD DOLPHIN",
   "BYD DOLPHIN MINI",
   "BYD KING",
   "BYD SONG PLUS DM-i",

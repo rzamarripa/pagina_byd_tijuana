@@ -31,10 +31,15 @@ export const CarSection = (props: { carInfo: SectionCarPage }) => {
   const isMobile = windowSize?.width ? windowSize.width <= 992 : false;
   const image = isMobile && imageMobile ? imageMobile : imageDesktop;
 
+  // @ts-ignore - Detectar si hay video
+  const isVideo = props.carInfo.isVideo;
+  // @ts-ignore - Obtener la ruta del video
+  const video = props.carInfo.video;
+
   return (
     <div>
       <div className="relative overflow-hidden text-white">
-        {/* Image */}
+        {/* Video o Image */}
         <div
           className={`
           max-h-full
@@ -50,18 +55,31 @@ export const CarSection = (props: { carInfo: SectionCarPage }) => {
           max-img:h-[200vw]
         `}
         >
-          <Image
-            src={image}
-            alt="Performance Section"
-            placeholder="blur"
-            fill
-            style={{
-              zIndex: -1,
-              objectFit: "cover",
-            }}
-            loading="lazy"
-            quality={75}
-          />
+          {isVideo && video ? (
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="absolute top-0 left-0 w-full h-full object-cover"
+              style={{ zIndex: -1 }}
+            >
+              <source src={video} type="video/mp4" />
+            </video>
+          ) : (
+            <Image
+              src={image as StaticImageData}
+              alt="Performance Section"
+              placeholder="blur"
+              fill
+              style={{
+                zIndex: -1,
+                objectFit: "cover",
+              }}
+              loading="lazy"
+              quality={75}
+            />
+          )}
         </div>
 
         <div
