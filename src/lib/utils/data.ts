@@ -13,23 +13,23 @@ import headerSongPro from "@/assets/images/header-product-images/header_song_pro
 
 // Images Home Page
 import web_dolphinMini from "@/assets/images/home-page/byd-dolphin-mini/web_banner_byd_dolphinmini_homepage.jpg";
-import web_han from "@/assets/images/home-page/byd-han/web_banner_byd_han_blue_homepage.jpg";
+//import web_han from "@/assets/images/home-page/byd-han/web_banner_byd_han_blue_homepage.jpg";
 import web_king from "@/assets/images/home-page/byd-king/web_banner_byd_king_homepage.jpg";
 import web_seal from "@/assets/images/home-page/byd-seal/web_banner_byd_seal_blue_homepage.jpg";
 import web_shark from "@/assets/images/home-page/byd-shark/web_banner_byd_shark_homepage.jpg";
 import web_song_plus_mini from "@/assets/images/home-page/byd-song-plus-dmi/web_banner_byd_songplusdmi_homepage.jpg";
 import web_song_pro from "@/assets/images/home-page/byd-song-pro/web_banner_byd_songpro_homepage.jpg";
-import web_tang from "@/assets/images/home-page/byd-tang/web_banner_byd_tang_red_homepage.jpg";
-import web_yuan_plus from "@/assets/images/home-page/byd-yuan-plus/web_banner_byd_yuan_plus_homepage.jpg";
+// import web_tang from "@/assets/images/home-page/byd-tang/web_banner_byd_tang_red_homepage.jpg";
+// import web_yuan_plus from "@/assets/images/home-page/byd-yuan-plus/web_banner_byd_yuan_plus_homepage.jpg";
 import mobile_dolphinMini from "@/assets/images/home-page/byd-dolphin-mini/mobile_banner_byd_dolphinmini_homepage.jpg";
-import mobile_han from "@/assets/images/home-page/byd-han/mobile_banner_byd_han_blue_homepage.jpg";
+// import mobile_han from "@/assets/images/home-page/byd-han/mobile_banner_byd_han_blue_homepage.jpg";
 import mobile_king from "@/assets/images/home-page/byd-king/mobile_banner_byd_king_homepage.jpg";
 import mobile_seal from "@/assets/images/home-page/byd-seal/mobile_banner_byd_seal_blue_homepage.jpg";
 import mobile_shark from "@/assets/images/home-page/byd-shark/mobile_banner_byd_shark_homepage.jpg";
 import mobile_song_plus_mini from "@/assets/images/home-page/byd-song-plus-dmi/mobile_banner_byd_songplusdmi_homepage.jpg";
 import mobile_song_pro from "@/assets/images/home-page/byd-song-pro/mobile_banner_byd_songpro_homepage.jpg";
-import mobile_tang from "@/assets/images/home-page/byd-tang/mobile_banner_byd_tang_red_homepage.jpg";
-import mobile_yuan_plus from "@/assets/images/home-page/byd-yuan-plus/mobile_banner_byd_yuan_plus_homepage.jpg";
+// import mobile_tang from "@/assets/images/home-page/byd-tang/mobile_banner_byd_tang_red_homepage.jpg";
+// import mobile_yuan_plus from "@/assets/images/home-page/byd-yuan-plus/mobile_banner_byd_yuan_plus_homepage.jpg";
 import byd_design from "@/assets/images/home-page/design/byd_design_diseno.jpg";
 
 import type { Vehicle } from "../types";
@@ -148,24 +148,24 @@ export const carData = [
     imageDesktop: web_seal,
     link: "/seal",
   },
-  {
-    title: "BYD HAN",
-    imageMobile: mobile_han,
-    imageDesktop: web_han,
-    link: "/han",
-  },
-  {
-    title: "BYD TANG",
-    imageMobile: mobile_tang,
-    imageDesktop: web_tang,
-    link: "/tang",
-  },
-  {
-    title: "BYD YUAN PLUS",
-    imageMobile: mobile_yuan_plus,
-    imageDesktop: web_yuan_plus,
-    link: "/yuan-plus",
-  },
+  // {
+  //   title: "BYD HAN",
+  //   imageMobile: mobile_han,
+  //   imageDesktop: web_han,
+  //   link: "/han",
+  // },
+  // {
+  //   title: "BYD TANG",
+  //   imageMobile: mobile_tang,
+  //   imageDesktop: web_tang,
+  //   link: "/tang",
+  // },
+  // {
+  //   title: "BYD YUAN PLUS 123",
+  //   imageMobile: mobile_yuan_plus,
+  //   imageDesktop: web_yuan_plus,
+  //   link: "/yuan-plus",
+  // },
   // {
   //     title: "BYD DOLPHIN",
   //     imageMobile: mobile_dolphin,
