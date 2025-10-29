@@ -21,8 +21,11 @@ const FooterNavigation = () => {
     // { title: "Política de Privacidad", link: "" },
     // { title: "Política de Cookies", link: "" },
     // { title: "Términos de Uso", link: "" },
-    { title: "Términos y Condiciones", link: "" },
-    // { title: "Datos Privacidad", link: "" },
+    {
+      title: "Términos y Condiciones",
+      link: "https://www.byd.com/mx/legal/terminos-y-condiciones",
+    },
+    { title: "Datos Privacidad", link: "https://www.byd.com/mx/data-privacy" },
   ];
 
   return (
@@ -45,7 +48,10 @@ const FooterNavigation = () => {
         <div className="flex flex-col gap-2">
           {cars.map((car, i) => (
             <Fragment key={i}>
-              <Link href={car.link || "#"} className="img:font-bold img:text-sm">
+              <Link
+                href={car.link || "#"}
+                className="img:font-bold img:text-sm"
+              >
                 {car.carName.split(" ")[0] === "BYD"
                   ? car.carName
                   : `BYD ${car.carName.split(" ")[0]}`}
