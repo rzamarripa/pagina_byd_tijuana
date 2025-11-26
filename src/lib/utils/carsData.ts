@@ -383,6 +383,36 @@ import section6_song_pro_mobile from "@/assets/images/cars-page/song-pro/6-mob.j
 import section7_song_pro_desktop from "@/assets/images/cars-page/song-pro/7-pc.jpg";
 import section7_song_pro_mobile from "@/assets/images/cars-page/song-pro/7-mob.jpg";
 
+// Yuan Pro
+import section1_yuan_pro_desktop from "@/assets/images/cars-page/yuan-pro/1-pc.jpg";
+import section1_yuan_pro_mobile from "@/assets/images/cars-page/yuan-pro/1-mob.jpg";
+import section2_yuan_pro_desktop from "@/assets/images/cars-page/yuan-pro/2-pc.jpg";
+import section2_yuan_pro_mobile from "@/assets/images/cars-page/yuan-pro/2-mob.jpg";
+import section3_yuan_pro_desktop from "@/assets/images/cars-page/yuan-pro/3-pc.jpg";
+import section3_yuan_pro_mobile from "@/assets/images/cars-page/yuan-pro/3-mob.jpg";
+import section4_yuan_pro_desktop from "@/assets/images/cars-page/yuan-pro/4-pc.jpg";
+import section4_yuan_pro_mobile from "@/assets/images/cars-page/yuan-pro/4-mob.jpg";
+import section4_yuan_pro_collapse1 from "@/assets/images/cars-page/yuan-pro/4.1-pc.jpg";
+import section4_yuan_pro_collapse1_mobile from "@/assets/images/cars-page/yuan-pro/4.1-mob.jpg";
+import section4_yuan_pro_collapse2 from "@/assets/images/cars-page/yuan-pro/4.2-pc.jpg";
+import section4_yuan_pro_collapse2_mobile from "@/assets/images/cars-page/yuan-pro/4.2-mob.jpg";
+import section5_yuan_pro_desktop from "@/assets/images/cars-page/yuan-pro/5-pc.jpg";
+import section5_yuan_pro_mobile from "@/assets/images/cars-page/yuan-pro/5-mob.jpg";
+import section5_yuan_pro_collapse1 from "@/assets/images/cars-page/yuan-pro/5.1-pc.jpg";
+import section5_yuan_pro_collapse1_mobile from "@/assets/images/cars-page/yuan-pro/5.1-mob.jpg";
+import section5_yuan_pro_collapse2 from "@/assets/images/cars-page/yuan-pro/5.2-pc.jpg";
+import section5_yuan_pro_collapse2_mobile from "@/assets/images/cars-page/yuan-pro/5.2-mob.jpg";
+import section5_yuan_pro_collapse3 from "@/assets/images/cars-page/yuan-pro/5.3-pc.jpg";
+import section5_yuan_pro_collapse3_mobile from "@/assets/images/cars-page/yuan-pro/5.3-mob.jpg";
+import section6_yuan_pro_desktop from "@/assets/images/cars-page/yuan-pro/6-pc.jpg";
+import section6_yuan_pro_mobile from "@/assets/images/cars-page/yuan-pro/6-mob.jpg";
+import section7_yuan_pro_desktop from "@/assets/images/cars-page/yuan-pro/7-pc.jpg";
+import section7_yuan_pro_mobile from "@/assets/images/cars-page/yuan-pro/7-mob.jpg";
+import section8_yuan_pro_desktop from "@/assets/images/cars-page/yuan-pro/8-pc.jpg";
+import section8_yuan_pro_mobile from "@/assets/images/cars-page/yuan-pro/8-mob.jpg";
+import section9_yuan_pro_desktop from "@/assets/images/cars-page/yuan-pro/9-pc.jpg";
+import section9_yuan_pro_mobile from "@/assets/images/cars-page/yuan-pro/9-mob.jpg";
+
 export const carsData: CarData[] = [
   {
     id: "sealion-7-ev",
@@ -2644,6 +2674,159 @@ export const carsData: CarData[] = [
       techImageDesktop: section7_song_pro_desktop,
       techImageMobile: section7_song_pro_mobile,
       buttonUrl: "",
+    },
+  },
+  {
+    id: "yuan-pro",
+    title: "BYD YUAN PRO",
+    metadata: {
+      title: "SUV Deportivo Eléctrico | BYD GRUPO PREMIER",
+      description: "SUV Deportivo Eléctrico | BYD GRUPO PREMIER",
+    },
+    backgroundVideoSection: false,
+    preSection: {
+      quoteForm: true,
+      title: "BYD YUAN PRO",
+      description: "SUV 100% ELÉCTRICO",
+      buttons: false,
+      collapse: false,
+      imageDesktop: section1_yuan_pro_desktop,
+      imageMobile: section1_yuan_pro_mobile,
+      smallText:
+        "Válido en la República Mexicana. Imágenes y videos son de carácter meramente ilustrativo.",
+    },
+    performanceSection: {
+      buttons: false,
+      list: [
+        {
+          titleNumbers: 380,
+          title: " km",
+          description: "Autonomía EV (NEDC)",
+        },
+        {
+          titleNumbers: 7.9,
+          title: " s",
+          description: "Aceleración 0-100 km/h",
+        },
+        {
+          title: "e-Platform 3.0",
+          description:
+            "Tren motriz conductor que combina inteligencia, eficiencia, seguridad y estética",
+        },
+        {
+          title: "Cell to Body (CTB)",
+          description:
+            "Estructura con tecnología innovadora para tu seguridad y estabilidad",
+        },
+      ],
+      text: "",
+      imageMobile: section2_yuan_pro_mobile,
+      imageDesktop: section2_yuan_pro_desktop,
+      title: "Sube la energía, baja el consumo",
+    },
+    sections: [
+      {
+        title: "Estilo Urbano, Eficiencia Eléctrica",
+        description:
+          "Experimenta la tecnología de BYD agendando una prueba de manejo.",
+        buttons: false,
+        collapse: false,
+        imageDesktop: section3_yuan_pro_desktop,
+        imageMobile: section3_yuan_pro_mobile,
+      },
+      {
+        title: "Ahorra en grande, recorre eléctrico",
+        description: "",
+        buttons: false,
+        imageDesktop: section4_yuan_pro_desktop,
+        imageMobile: section4_yuan_pro_mobile,
+        collapse: true,
+        collapseData: [
+          {
+            title: "Apariencia deportiva",
+            description:
+              "La vista lateral sigue unas líneas con gran sutileza, pero inteligentemente diseñadas, que permiten reducir la resistencia al viento y mejorar la experiencia de conducción.",
+            imagePosition: "right",
+            imageDesktop: section4_yuan_pro_collapse1,
+            imageMobile: section4_yuan_pro_collapse1_mobile,
+          },
+          {
+            title: "Luz trasera Skyline",
+            description:
+              "Nuevas luces traseras inspiradas en el infinito, que emulan un símbolo de suerte y prosperidad.",
+            imagePosition: "left",
+            imageDesktop: section4_yuan_pro_collapse2,
+            imageMobile: section4_yuan_pro_collapse2_mobile,
+          },
+        ],
+      },
+      {
+        title: "Cabina Inteligente BYD",
+        description:
+          "Dejate sorprender por su pantalla giratoria de 12.8 pulgadas, con Sistema Operativo Inteligente y Asistente de Voz con Inteligencia Artificial Hi BYD para llevar el control en cada kilometro que recorras.",
+        buttons: false,
+        imageDesktop: section5_yuan_pro_desktop,
+        imageMobile: section5_yuan_pro_mobile,
+        collapse: true,
+        collapseData: [
+          {
+            title: "Conexión Eficiente",
+            description:
+              "Conecta tus dispositivos iOS o Android para navegar como tú prefieras, a través de Apple CarPlay o Android Auto. Asistente de Voz con Inteligencia Artificial Hi BYD para llevar el control en cada kilometro que recorras. Nunca te quedes sin batería con el cargador inálambrico para tus dispositivos electronicos.",
+            imagePosition: "right",
+            imageDesktop: section5_yuan_pro_collapse1,
+            imageMobile: section5_yuan_pro_collapse1_mobile,
+          },
+          {
+            title: "Amplio Espacio",
+            description:
+              "BYD YUAN PRO es una SUV más espaciosa que el promedio de su clase, con un maletero de 1.210 litros y asientos abatibles, con capacidad para 5 pasajeros.",
+            imagePosition: "left",
+            imageDesktop: section5_yuan_pro_collapse2,
+            imageMobile: section5_yuan_pro_collapse2_mobile,
+          },
+          {
+            title: "Dynasty Edition",
+            description:
+              "Interiores en tono Gravel Beige como parte de la edicion especial Dynasty Edition por las primeras 500 unidades. El diseño de los asientos es ergonómico, cómodo y seguro para los pasajeros",
+            imagePosition: "right",
+            imageDesktop: section5_yuan_pro_collapse3,
+            imageMobile: section5_yuan_pro_collapse3_mobile,
+          },
+        ],
+      },
+      {
+        title: "e-Platform 3.0",
+        description:
+          "Gracias a sus extraordinarias ventajas en inteligencia, eficiencia, seguridad y estética, la e-Platform 3.0 pretende mejorar la seguridad y la autonomía de los Vehículos de Nueva Energía (NEV) a bajas temperaturas, así como la experiencia de conducción inteligente, con el fin de crear nuevos vehículos eléctricos inteligentes más eficientes y seguros.",
+        buttons: false,
+        imageDesktop: section6_yuan_pro_desktop,
+        imageMobile: section6_yuan_pro_mobile,
+        collapse: false,
+      },
+      {
+        title: "Batería Blade",
+        description:
+          "BYD ha sido un referente en la industria de las baterías durante más de 30 años. Nuestra última e innovadora Batería Blade ha superado una serie de pruebas extremas en condiciones rigurosas, lo que la convierte en una de las baterías más seguras del mundo.",
+        buttons: false,
+        imageDesktop: section7_yuan_pro_desktop,
+        imageMobile: section7_yuan_pro_mobile,
+        collapse: false,
+      },
+      {
+        title: "Carrocería de alta resistencia",
+        description:
+          "Las barras de acero y la estructura de hierro garantiza tu seguridad todo el camino.",
+        buttons: false,
+        imageDesktop: section8_yuan_pro_desktop,
+        imageMobile: section8_yuan_pro_mobile,
+        collapse: false,
+      },
+    ],
+    technicalData: {
+      techImageDesktop: section9_yuan_pro_desktop,
+      techImageMobile: section9_yuan_pro_mobile,
+      buttonUrl: "/files/ficha-tecnica-yuan-pro.pdf",
     },
   },
 ];
