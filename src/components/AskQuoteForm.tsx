@@ -26,6 +26,7 @@ const options = [
   "BYD SONG PLUS DM-i",
   "BYD SHARK",
   "BYD SONG PRO DM-i",
+  "BYD YUAN PRO",
 ];
 
 export const AskQuoteForm = ({
