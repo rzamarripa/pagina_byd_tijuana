@@ -2,6 +2,7 @@ import modelosHan from "@/assets/images/header-product-images/modelos-han.png";
 import newTanRedHeader from "@/assets/images/header-product-images/new-tan-red-header.png";
 import sealion from "@/assets/images/header-product-images/sealion.png";
 import m9 from "@/assets/images/header-product-images/m9.png";
+import yuan_pro from "@/assets/images/header-product-images/yuan-pro.png";
 //import modelosYuan from "@/assets/images/header-product-images/modelos-yuan.png";
 import sealGlacierBlue from "@/assets/images/header-product-images/seal_glacier_blue.png";
 // import dolphinHeaderUpdate from "@/assets/images/header-product-images/dolphin-header-update.png";
@@ -76,6 +77,12 @@ export const electricVehicles: Vehicle[] = [
     carName: "BYD TANG",
     text: "Conócelo",
     link: "/car/tang",
+  },
+  {
+    carPicturePath: yuan_pro,
+    carName: "BYD YUAN PRO EV",
+    text: "Conócelo",
+    link: "/car/yuan-pro",
   },
 ];
 
