@@ -71,7 +71,6 @@ export const MapContainer = ({ disableVideo = true }: MapContainerProps) => {
           `}
         >
           <div className="w-full h-full">
-       
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d695.8377436376278!2d-117.0108280159362!3d32.52053581112668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d949004c54cdeb%3A0x98c27289b07dca74!2sBYD%20Tijuana!5e1!3m2!1ses-419!2smx!4v1739939036319!5m2!1ses-419!2smx"
               className="w-full h-full"
