@@ -9,7 +9,7 @@ interface MapContainerProps {
   disableVideo?: boolean;
 }
 
-export const MapContainer = ({ disableVideo = true }: MapContainerProps) => {
+export const MapContainer = ({ disableVideo = false }: MapContainerProps) => {
   const [isOpen, setOpen] = useState(false);
   const urlVideo = "/videos/location.mp4";
 
