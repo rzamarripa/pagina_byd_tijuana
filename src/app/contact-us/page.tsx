@@ -50,7 +50,7 @@ export default function ContactUsPage() {
                 max-img:mb-[7.777778vw]
             `}
           >
-            BYD - Tijuana
+            BYD Tijuana - Zona Río
           </h3>
           <div
             className={`
@@ -78,9 +78,55 @@ export default function ContactUsPage() {
             <br />
             Localización: Tijuana, Baja California
             <br />
-            Dirección: P.º de los Héroes 10493, Zona Urbana Rio Tijuana, 22010 Tijuana, B.C.
+            Dirección: P.º de los Héroes 10493, Zona Urbana Rio Tijuana, 22010
+            Tijuana, B.C.
+          </p>
+          <h3
+            className={`
+                text-[32px]
+                leading-[1.3]
+                font-semibold
+                mb-[1.71875vw]
+
+                max-img:text-[6.666667vw]
+                max-img:text-center
+                max-img:mb-[7.777778vw]
+            `}
+            style={{ marginTop: "100px" }}
+          >
+            BYD Tijuana - Vía Rápida
+          </h3>
+          <div
+            className={`
+                w-[100px]
+                h-[2px]
+                bg-black
+                mb-[2.34375vw]
+                
+                max-img:w-[125px]
+                max-img:mb-[12.638889vw]
+            `}
+          />
+          <p
+            className={`
+                text-base 
+                leading-[1.6] 
+                text-[#888888]
+
+                max-img:text-[4.444444vw]
+                max-img:text-center
+                max-img:text-[#4e5356]
+            `}
+          >
+            Atención al Cliente: 664 210 8256
+            <br />
+            Localización: Tijuana, Baja California
+            <br />
+            Av. Vía Rápida Pte. 15161, Zona Urbana Rio Tijuana, 22010 Tijuana,
+            B.C.
           </p>
         </div>
+
         <div
           className={`
                 flex-1
