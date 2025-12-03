@@ -27,6 +27,7 @@ const options = [
   "BYD SHARK",
   "BYD SONG PRO DM-i",
   "BYD YUAN PRO",
+  "BYD ATTO 8",
 ];
 
 export const AskQuoteForm = ({

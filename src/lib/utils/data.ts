@@ -3,6 +3,8 @@ import newTanRedHeader from "@/assets/images/header-product-images/new-tan-red-h
 import sealion from "@/assets/images/header-product-images/sealion.png";
 import m9 from "@/assets/images/header-product-images/m9.png";
 import yuan_pro from "@/assets/images/header-product-images/yuan-pro.png";
+import atto8 from "@/assets/images/header-product-images/atto8.webp";
+
 //import modelosYuan from "@/assets/images/header-product-images/modelos-yuan.png";
 import sealGlacierBlue from "@/assets/images/header-product-images/seal_glacier_blue.png";
 // import dolphinHeaderUpdate from "@/assets/images/header-product-images/dolphin-header-update.png";
@@ -116,6 +118,12 @@ export const hybridVehicles: Vehicle[] = [
     carName: "BYD SONG PRO DM-i",
     text: "Conócelo",
     link: "/car/song-pro-dmi",
+  },
+  {
+    carPicturePath: atto8,
+    carName: "BYD ATTO 8",
+    text: "Conócelo",
+    link: "/car/atto8",
   },
 ];
 

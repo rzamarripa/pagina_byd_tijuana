@@ -413,6 +413,54 @@ import section8_yuan_pro_mobile from "@/assets/images/cars-page/yuan-pro/8-mob.j
 import section9_yuan_pro_desktop from "@/assets/images/cars-page/yuan-pro/9-pc.jpg";
 import section9_yuan_pro_mobile from "@/assets/images/cars-page/yuan-pro/9-mob.jpg";
 
+// Atto 8
+
+import section1_atto8_desktop from "@/assets/images/cars-page/atto8/1-pc.jpg";
+import section1_atto8_mobile from "@/assets/images/cars-page/atto8/1-mob.jpg";
+import section2_atto8_desktop from "@/assets/images/cars-page/atto8/2-pc.jpg";
+import section2_atto8_mobile from "@/assets/images/cars-page/atto8/2-mob.jpg";
+import section3_atto8_desktop from "@/assets/images/cars-page/atto8/3-pc.jpg";
+import section3_atto8_mobile from "@/assets/images/cars-page/atto8/3-mob.jpg";
+import section3_1_atto8_desktop from "@/assets/images/cars-page/atto8/3.1-pc.png";
+import section3_1_atto8_mobile from "@/assets/images/cars-page/atto8/3.1-mob.png";
+import section3_2_atto8_desktop from "@/assets/images/cars-page/atto8/3.2-pc.jpg";
+import section3_2_atto8_mobile from "@/assets/images/cars-page/atto8/3.2-mob.jpg";
+import section3_3_atto8_desktop from "@/assets/images/cars-page/atto8/3.3-pc.png";
+import section3_3_atto8_mobile from "@/assets/images/cars-page/atto8/3.3-mob.png";
+import section3_4_atto8_desktop from "@/assets/images/cars-page/atto8/3.4-pc.png";
+import section3_4_atto8_mobile from "@/assets/images/cars-page/atto8/3.4-mob.png";
+
+import section4_atto8_desktop from "@/assets/images/cars-page/atto8/4-pc.jpg";
+import section4_atto8_mobile from "@/assets/images/cars-page/atto8/4-mob.jpg";
+import section4_1_atto8_desktop from "@/assets/images/cars-page/atto8/4.1-pc.png";
+import section4_1_atto8_mobile from "@/assets/images/cars-page/atto8/4.1-mob.png";
+import section4_2_atto8_desktop from "@/assets/images/cars-page/atto8/4.2-pc.png";
+import section4_2_atto8_mobile from "@/assets/images/cars-page/atto8/4.2-mob.png";
+import section4_3_atto8_desktop from "@/assets/images/cars-page/atto8/4.3-pc.png";
+import section4_3_atto8_mobile from "@/assets/images/cars-page/atto8/4.3-mob.png";
+import section4_4_atto8_desktop from "@/assets/images/cars-page/atto8/4.4-pc.png";
+import section4_4_atto8_mobile from "@/assets/images/cars-page/atto8/4.4-mob.png";
+import section4_5_atto8_desktop from "@/assets/images/cars-page/atto8/4.5-pc.png";
+import section4_5_atto8_mobile from "@/assets/images/cars-page/atto8/4.5-mob.png";
+
+import section5_atto8_desktop from "@/assets/images/cars-page/atto8/5-pc.jpg";
+import section5_atto8_mobile from "@/assets/images/cars-page/atto8/5-mob.jpg";
+import section5_1_atto8_desktop from "@/assets/images/cars-page/atto8/5.1-pc.png";
+import section5_1_atto8_mobile from "@/assets/images/cars-page/atto8/5.1-mob.png";
+import section5_2_atto8_desktop from "@/assets/images/cars-page/atto8/5.2-pc.png";
+import section5_2_atto8_mobile from "@/assets/images/cars-page/atto8/5.2-mob.png";
+import section5_3_atto8_desktop from "@/assets/images/cars-page/atto8/5.3-pc.png";
+import section5_3_atto8_mobile from "@/assets/images/cars-page/atto8/5.3-mob.png";
+import section5_4_atto8_desktop from "@/assets/images/cars-page/atto8/5.4-pc.png";
+import section5_4_atto8_mobile from "@/assets/images/cars-page/atto8/5.4-mob.png";
+
+import section6_atto8_desktop from "@/assets/images/cars-page/atto8/6-pc.jpg";
+import section6_atto8_mobile from "@/assets/images/cars-page/atto8/6-mob.jpg";
+import section7_atto8_desktop from "@/assets/images/cars-page/atto8/7-pc.jpg";
+import section7_atto8_mobile from "@/assets/images/cars-page/atto8/7-mob.jpg";
+import section8_atto8_desktop from "@/assets/images/cars-page/atto8/8-pc.jpg";
+import section8_atto8_mobile from "@/assets/images/cars-page/atto8/8-mob.jpg";
+
 export const carsData: CarData[] = [
   {
     id: "sealion-7-ev",
@@ -2827,6 +2875,216 @@ export const carsData: CarData[] = [
       techImageDesktop: section9_yuan_pro_desktop,
       techImageMobile: section9_yuan_pro_mobile,
       buttonUrl: "/files/ficha-tecnica-yuan-pro.pdf",
+    },
+  },
+  {
+    id: "atto8",
+    title: "BYD ATTO 8",
+    metadata: {
+      title: "SUV Híbrido Enchufable de 7 Plazas | BYD GRUPO PREMIER",
+      description: "SUV Híbrido Enchufable de 7 Plazas | BYD GRUPO PREMIER",
+    },
+    backgroundVideoSection: false,
+    preSection: {
+      quoteForm: true,
+      title: "BYD ATTO 8",
+      description: "Tu viaje, tu voz, tu espacio",
+      buttons: false,
+      collapse: false,
+      imageDesktop: section1_atto8_desktop,
+      imageMobile: section1_atto8_mobile,
+      smallText:
+        "Válido en la República Mexicana. Imágenes y videos son de carácter meramente ilustrativo.",
+    },
+    performanceSection: {
+      buttons: false,
+      list: [
+        {
+          titleNumbers: 1030,
+          title: " km",
+          description: "NEDC Autonomía Combinada",
+        },
+        {
+          titleNumbers: 152,
+          title: " km",
+          description: "NEDC Autonomía eléctrica",
+        },
+        {
+          title: "4.9s",
+          description: "Aceleración de 0 a 100 km/h",
+        },
+        {
+          title: "DM-p",
+          description: "AWD Tracción Integral Inteligente",
+        },
+      ],
+      text: "",
+      imageMobile: section2_atto8_mobile,
+      imageDesktop: section2_atto8_desktop,
+      title: "SUV Híbrido Enchufable de 7 Plazas",
+    },
+    sections: [
+      {
+        title: "Techo panorámico",
+        description:
+          "Con líneas limpias y acabados cuidados, la cortina de techo panorámica eléctrica de 2.39m² se integra perfectamente al diseño interior, aportando al estilo sofisticado y moderno del vehículo.",
+        buttons: false,
+        collapse: true,
+        imageDesktop: section3_atto8_desktop,
+        imageMobile: section3_atto8_mobile,
+        collapseData: [
+          {
+            title: "Diseño frontal futurista y minimalista",
+            description:
+              "BYD Atto 8 combina elegancia y tecnología. Sus luces diurnas distintivas no solo mejoran la visibilidad, también le otorgan una identidad única en el camino. Cada curva del vehículo transmite solidez y dinamismo, mientras que cada línea está cuidadosamente trazada para reflejar innovación y modernidad.",
+            imagePosition: "left",
+            imageDesktop: section3_1_atto8_desktop,
+            imageMobile: section3_1_atto8_mobile,
+          },
+          {
+            title: "Diseño de puertas aerodinámicas | Manijas retráctiles",
+            description:
+              "Integración perfecta de estética y funcionalidad que se fusiona con el diseño audaz de BYD ATTO 8",
+            imagePosition: "right",
+            imageDesktop: section3_2_atto8_desktop,
+            imageMobile: section3_2_atto8_mobile,
+          },
+          {
+            title: "Rines de aleación de 21 pulgadas con múltiples brazos",
+            description:
+              "Estos rines diseñados, con apariencia de joya, expresan lujo y dinamismo en cada movimiento. Aportando un carácter audaz en cada detalle.",
+            imagePosition: "left",
+            imageDesktop: section3_3_atto8_desktop,
+            imageMobile: section3_3_atto8_mobile,
+          },
+          {
+            title: "Luz trasera unificada con diseño infinito",
+            description:
+              "Con un innovador diseño que imita un lazo, un entrelazado, un patrón artístico que, al encenderse, parece un nudo luminoso. Funciona como luz trasera normal, luz de freno, señal de giro, luz de posición y señalización. Útil para la seguridad y visibilidad.",
+            imagePosition: "right",
+            imageDesktop: section3_4_atto8_desktop,
+            imageMobile: section3_4_atto8_mobile,
+          },
+        ],
+      },
+      {
+        title: "La mayor tecnología y comodidad en tu SUV premium",
+        description:
+          "Espacio exterior impresionante, primera SUV de más de 5 metros de largo, confort interior sin igual con nuevo diseño de cabina inteligente.",
+        buttons: false,
+        imageDesktop: section4_atto8_desktop,
+        imageMobile: section4_atto8_mobile,
+        collapse: true,
+        collapseData: [
+          {
+            title: "Lujo de primera clase con 7 asientos",
+            description:
+              "Gracias a sus acabados de piel, eleva el confort en todas las filas. Disfruta de calefacción integrada, ventilación y sistemas de masaje en múltiples puntos, diseñados tanto para los pasajeros en primera y segunda fila.",
+            imagePosition: "left",
+            imageDesktop: section4_1_atto8_desktop,
+            imageMobile: section4_1_atto8_mobile,
+          },
+          {
+            title: "Carga inalámbrica rápida de 50 W",
+            description:
+              "Carga a la velocidad de un cable. Con 50 W de potencia inalámbrica líder en la industria, recarga rápidamente tu smartphone compatible mientras estás en movimiento, para que siempre estés conectado.",
+            imagePosition: "right",
+            imageDesktop: section4_2_atto8_desktop,
+            imageMobile: section4_2_atto8_mobile,
+          },
+          {
+            title: "Iluminación ambiental envolvente de hasta 128 colores",
+            description:
+              "Diseñada con precisión para transformar la atmósfera de tu cabina. Elige entre 128 colores cuidadosamente seleccionados para armonizar con tu estado de ánimo o modo de conducción, y vive un nuevo nivel de lujo personalizado en movimiento.",
+            imagePosition: "left",
+            imageDesktop: section4_3_atto8_desktop,
+            imageMobile: section4_3_atto8_mobile,
+          },
+          {
+            title:
+              "Vive una experiencia acústica como en una sala de conciertos con 21 altavoces de alta fidelidad",
+            description:
+              "Sumérgete en la excelencia del sistema de audio DiSound que cuenta con 21 altavoces de alta fidelidad, con una potencia de 1500 W, ofrece un sonido impresionante de calidad de estudio en toda la cabina.",
+            imagePosition: "right",
+            imageDesktop: section4_4_atto8_desktop,
+            imageMobile: section4_4_atto8_mobile,
+          },
+          {
+            title: "Asientos con comodidad de 11 capas, como en una nube",
+            description:
+              "Diseñados pensando en la anatomía del cuerpo humano, cada capa cumple una función, soporte ergonómico que te envuelve como en una nube, ofreciendo masaje en las primeras dos filas de asientos con 5 diferentes modalidades, reduciendo la fatiga y mejorando el bienestar en cada viaje.",
+            imagePosition: "left",
+            imageDesktop: section4_5_atto8_desktop,
+            imageMobile: section4_5_atto8_mobile,
+          },
+        ],
+      },
+      {
+        title: "Sistema híbrido enchufable DM 5.0",
+        description:
+          "El sistema híbrido enchufable DM 5.0 de BYD incorpora un motor 1.5T de alta eficiencia, capaz de alcanzar una eficiencia térmica líder del 45.3%. Potencia máxima de 110 kW, un torque de 220 Nm y una relación de compresión de 14:1, ofrece un desempeño ágil y potente, comparable con el de vehículos de alto rendimiento.",
+        buttons: false,
+        imageDesktop: section5_atto8_desktop,
+        imageMobile: section5_atto8_mobile,
+        collapse: true,
+        collapseData: [
+          {
+            title:
+              "Estructura de carrocería de ultra alta resistencia | Protección total",
+            description:
+              "Diseñado con un marco de seguridad que incorpora acero conformado en caliente en el 100% de la cabina, con un peso de 116 kg, el BYD ATTO 8 garantiza una rigidez inquebrantable y protección ante impactos en cualquier situación",
+            imagePosition: "left",
+            imageDesktop: section5_1_atto8_desktop,
+            imageMobile: section5_1_atto8_mobile,
+          },
+          {
+            title: "Ingeniería en seguridad: sistema de 11 bolsas de aire",
+            description:
+              "Diseñado para la máxima protección de los ocupantes. El avanzado sistema de bolsas de aire de BYD ofrece una cobertura inteligente, brindando un desempeño de seguridad líder en su clase.",
+            imagePosition: "right",
+            imageDesktop: section5_2_atto8_desktop,
+            imageMobile: section5_2_atto8_mobile,
+          },
+          {
+            title: "Tecnología de aislamiento BYD",
+            description:
+              "Con aislamiento del motor trasero en los modelos AWD, nuestro innovador sistema desconecta físicamente la propulsión trasera para eliminar el par, reduciendo drásticamente el consumo de energía y ampliando tu autonomía de manera sencilla.",
+            imagePosition: "left",
+            imageDesktop: section5_3_atto8_desktop,
+            imageMobile: section5_3_atto8_mobile,
+          },
+          {
+            title: "La experiencia de conducción definitiva: DiSus-C",
+            description:
+              "El BYD ATTO 8 está equipado con el sistema DiSus-C, desarrollado por BYD. Ofrece una estabilidad y confianza inigualables en cada viaje. Al reducir de manera activa el balanceo, cabeceo y las vibraciones en todo tipo de caminos, garantiza un manejo superior y una conducción excepcionalmente suave y refinada, elevando el confort y el control más allá de su segmento.",
+            imagePosition: "right",
+            imageDesktop: section5_4_atto8_desktop,
+            imageMobile: section5_4_atto8_mobile,
+          },
+        ],
+      },
+      {
+        title: "Espacio de almacenamiento amplio y adaptable",
+        description: "hasta 1960 L de espacio de carga con asientos abatidos",
+        buttons: false,
+        imageDesktop: section6_atto8_desktop,
+        imageMobile: section6_atto8_mobile,
+        collapse: false,
+      },
+      {
+        title: "Estación de Energía Móvil VTOL",
+        description:
+          "Convierte tus aventuras en comodidades. Alimenta tu cocina al aire libre, luces nocturnas, películas al exterior, calefacción y dispositivos de emergencia, todo desde tu BYD ATTO 8.",
+        buttons: false,
+        imageDesktop: section7_atto8_desktop,
+        imageMobile: section7_atto8_mobile,
+        collapse: false,
+      },
+    ],
+    technicalData: {
+      techImageDesktop: section8_atto8_desktop,
+      techImageMobile: section8_atto8_mobile,
+      buttonUrl: "/files/ficha-tecnica-atto8.pdf",
     },
   },
 ];
