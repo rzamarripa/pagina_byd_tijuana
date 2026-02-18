@@ -9,8 +9,30 @@ export default function Home() {
       <div className="relative">
         <SwiperSlider />
 
-        <AskQuoteForm />
+        <AskQuoteForm className="max-img:hidden" />
       </div>
+
+      <section className="img:hidden py-6 px-4 flex justify-center">
+        <AskQuoteForm
+          className="
+            relative
+            top-0
+            left-0
+            translate-x-0
+            mr-0
+            w-full
+            max-w-md
+
+            max-img:top-0
+            max-img:left-0
+            max-img:translate-x-0
+            max-img:mr-0
+            max-img:w-full
+
+            max-sm:w-full
+          "
+        />
+      </section>
 
       <section className="flex flex-col">
         {carData.map((car, index) => (

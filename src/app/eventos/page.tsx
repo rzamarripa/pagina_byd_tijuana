@@ -31,22 +31,23 @@ export default function EventosPage() {
         <div className="absolute inset-0 bg-black opacity-40 -z-10"></div>
         <div
           className={`
-          absolute 
-          top-1/2 
-          left-0 
-          translate-x-1/2 
-          -translate-y-1/2 
-          w-[480px] 
-          
-          max-img:w-[80%] 
-          max-img:top-10
-          max-img:left-1/2
-          max-img:-translate-x-1/2
-          max-img:-translate-y-0
+          absolute
+          top-1/2
+          left-[5%]
+          -translate-y-1/2
+          w-[480px]
+
+          max-img:hidden
 
           max-sm:w-[90%]
         `}
         >
+          <EventsForm />
+        </div>
+      </section>
+
+      <section className="img:hidden py-6 px-4 flex justify-center bg-[#2a2d30] text-white">
+        <div className="w-full max-w-md">
           <EventsForm />
         </div>
       </section>
