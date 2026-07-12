@@ -50,8 +50,8 @@ export type SectionCarPage = {
   | {
       imageDesktop: Image;
       imageMobile: Image | false;
-      buttons: false;
-      buttonsText?: never;
+      buttons?: boolean;
+      buttonsText?: { text: string; link: string }[];
       collapse: true;
       collapseData: CollapseData[];
       flex?: false;

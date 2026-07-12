@@ -4,6 +4,7 @@ import { SectionCarPage } from "@/lib";
 import Image, { StaticImageData } from "next/image";
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 import { Button } from "../PrimaryButton";
 import { AskQuoteForm } from "../AskQuoteForm";
 
@@ -164,9 +165,58 @@ export const CarSection = (props: { carInfo: SectionCarPage }) => {
               </div>
             </div>
           )}
+
         </div>
 
-        {buttons && (
+        {buttons && buttonsText && collapse && (
+          <div
+            className={`
+                absolute
+                w-[1440px]
+                max-w-[90%]
+                left-0
+                right-0
+                m-auto
+                bottom-[7.5vw]
+
+                max-img:w-[86%]
+                max-img:max-w-[86%]
+                max-img:bottom-[38vw]
+                max-img:flex
+                max-img:flex-col
+                max-img:items-center
+                max-img:justify-center
+
+                animate-fade-in
+            `}
+          >
+            {buttonsText.map((button, index) => (
+              <Link
+                key={index}
+                href={button.link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button
+                  className={`
+                      max-img:w-[86%]
+                      max-img:flex
+                      max-img:items-center
+                      max-img:justify-center
+                      max-img:p-[3.472222vw]
+
+                      img:min-w-[200px]
+                  `}
+                  color={buttonColor}
+                >
+                  {button.text}
+                </Button>
+              </Link>
+            ))}
+          </div>
+        )}
+
+        {buttons && buttonsText && !collapse && (
           <div
             className={`
                 animate-fade-in

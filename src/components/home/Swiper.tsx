@@ -1,5 +1,4 @@
 "use client";
-import { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, EffectFade } from "swiper/modules";
 import Image from "next/image";
@@ -8,43 +7,24 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
 
-import web_dolphin from "@/assets/images/home-page/carrusel/web_dolphin-mini.jpg";
-import web_king from "@/assets/images/home-page/carrusel/web_king.jpg";
-import web_songpro from "@/assets/images/home-page/carrusel/web_song-pro.jpg";
-
-import mobile_dolphin from "@/assets/images/home-page/carrusel/mob_dolphin-mini.jpg";
-import mobile_king from "@/assets/images/home-page/carrusel/mob_king.jpg";
-import mobile_songpro from "@/assets/images/home-page/carrusel/mob_song-pro.jpg";
+import banner_shark from "@/assets/images/home-page/carrusel/web_shark_julio26.jpg";
+import banner_dolphin_mini from "@/assets/images/home-page/carrusel/web_dolphin-mini_julio26.jpg";
+import banner_song_pro from "@/assets/images/home-page/carrusel/web_song-pro_julio26.jpg";
+import banner_song_plus from "@/assets/images/home-page/carrusel/web_song-plus_julio26.jpg";
+import banner_yuan_pro from "@/assets/images/home-page/carrusel/web_yuan-pro_julio26.jpg";
 import { Button } from "../";
 import { useRouter } from "next/navigation";
 
+const slides = [
+  { image: banner_shark, link: "/car/BYDSHARK" },
+  { image: banner_dolphin_mini, link: "/car/dolphin-mini" },
+  { image: banner_song_pro, link: "/car/song-pro-dmi" },
+  { image: banner_song_plus, link: "/car/song-plus-dmi" },
+  { image: banner_yuan_pro, link: "/car/yuan-pro" },
+];
+
 const SwiperSlider = () => {
-  const links = [
-    { link: "/dolphin-mini" },
-    { link: "/king" },
-    { link: "/song-pro-dmi" },
-  ];
-
-  const images = {
-    web: [web_dolphin, web_king, web_songpro],
-    mobile: [mobile_dolphin, mobile_king, mobile_songpro],
-  };
-
-  const [isMobile, setIsMobile] = useState(false);
   const router = useRouter();
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth <= 992);
-    };
-
-    handleResize();
-    window.addEventListener("resize", handleResize);
-
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
-  const imagesToShow = isMobile ? images.mobile : images.web;
 
   return (
     <Swiper
@@ -60,11 +40,21 @@ const SwiperSlider = () => {
       }}
       className="max-h-[calc(100vh-4rem)] lg:max-h-[calc(100vh-2rem)] overflow-y-hidden"
     >
-      {imagesToShow.map((image, index) => (
+      {slides.map((slide, index) => (
         <SwiperSlide key={index}>
-          <div className="relative w-full h-[950px] xl:h-[920px]">
+          <div
+            className={`
+              relative
+              w-full
+              aspect-[16/9]
+
+              img:aspect-auto
+              img:h-[950px]
+              xl:h-[920px]
+            `}
+          >
             <Image
-              src={image}
+              src={slide.image}
               alt={`Slide ${index + 1}`}
               fill
               className="object-cover"
@@ -76,20 +66,21 @@ const SwiperSlider = () => {
 
           <div
             className={`
-                absolute
-                left-1/2
-                top-[83%]
-                xl:top-[85%]
-                transform
-                -translate-x-1/2
-                w-full
                 flex
                 items-center
                 justify-center
+                py-4
+
+                img:absolute
+                img:left-1/2
+                img:top-[85%]
+                img:-translate-x-1/2
+                img:w-full
+                img:py-0
                 `}
           >
             <Button
-              onClick={() => router.push(`car/${links[index].link}`)}
+              onClick={() => router.push(slide.link)}
               className="w-[95%] md:w-[40%] lg:w-[50%] xl:w-[15%]"
             >
               Saber más
