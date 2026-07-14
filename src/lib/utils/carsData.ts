@@ -348,12 +348,15 @@ import section5_shark_collapse1 from "@/assets/images/cars-page/shark/5.1-pc.jpg
 import section5_shark_collapse2 from "@/assets/images/cars-page/shark/5.2-pc.jpg";
 import section5_shark_collapse3 from "@/assets/images/cars-page/shark/5.3-pc.jpg";
 import section5_shark_collapse4 from "@/assets/images/cars-page/shark/5.4-pc.jpg";
+import section6_shark_desktop from "@/assets/images/cars-page/shark/6-pc.jpg";
 import section7_shark_desktop from "@/assets/images/cars-page/shark/7-pc.jpg";
 import section7_shark_mobile from "@/assets/images/cars-page/shark/7-mob.jpg";
 import section7_shark_collapse1 from "@/assets/images/cars-page/shark/7.1-pc.jpg";
 import section7_shark_collapse1_mobile from "@/assets/images/cars-page/shark/7.1-mob.jpg";
 import section7_shark_collapse2 from "@/assets/images/cars-page/shark/7.2-pc.jpg";
 import section7_shark_collapse2_mobile from "@/assets/images/cars-page/shark/7.2-mob.jpg";
+import section8_shark_desktop from "@/assets/images/cars-page/shark/8-pc.jpg";
+import section8_shark_mobile from "@/assets/images/cars-page/shark/8-mob.jpg";
 
 // Song Pro
 import section1_song_pro_desktop from "@/assets/images/cars-page/song-pro/1-pc.jpg";
@@ -2537,16 +2540,20 @@ export const carsData: CarData[] = [
         ],
       },
       {
+        title:
+          "Una estación de carga eléctrica en cualquier lugar a cualquier hora",
+        description:
+          "Experiencia superior suministrada por la función VTOL, asegura un camping sin preocupaciones y libertad en el uso de la electricidad.",
+        buttons: false,
+        imageDesktop: section6_shark_desktop,
+        imageMobile: false,
+        collapse: false,
+      },
+      {
         title: "BYD APP",
         description:
           "Lleva el control de tu camioneta en la palma de tu mano. Desde tu celular, accede con un solo clic a una variedad de funciones",
-        buttons: true,
-        buttonsText: [
-          {
-            text: "Ficha Técnica",
-            link: "/files/ficha-tecnica-shark.pdf",
-          },
-        ],
+        buttons: false,
         imageDesktop: section7_shark_desktop,
         imageMobile: section7_shark_mobile,
         collapse: true,
@@ -2572,6 +2579,12 @@ export const carsData: CarData[] = [
         ],
       },
     ],
+    technicalData: {
+      techImageDesktop: section8_shark_desktop,
+      techImageMobile: section8_shark_mobile,
+      buttonUrl: "/files/ficha-tecnica-shark.pdf",
+      buttonColor: "white",
+    },
   },
   {
     id: "song-pro-dmi",
