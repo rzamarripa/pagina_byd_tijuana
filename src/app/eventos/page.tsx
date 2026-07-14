@@ -1,18 +1,21 @@
 import React from "react";
 import { EventsForm, MapContainer, ResponsiveEventImage } from "@/components";
+import { readEventosImages } from "@/lib/eventosStore";
 
 export const metadata = {
   title: "Eventos | BYD GRUPO PREMIER",
   description: "Eventos",
 };
 
-export default function EventosPage() {
+export default async function EventosPage() {
+  const custom = await readEventosImages();
+
   return (
     <main>
       <section className="relative overflow-hidden text-white min-h-[260vw] object-cover sm:min-h-[225vw] img:min-h-[85vw] 2xl:min-h-[70vw] h-full">
         <ResponsiveEventImage
-          image="https://imagenes.masoft.mx/bydtijuana/web.jpg"
-          imageMobile="https://imagenes.masoft.mx/bydtijuana/mob.jpg"
+          image={custom.imageDesktop || "https://imagenes.masoft.mx/bydtijuana/web.jpg"}
+          imageMobile={custom.imageMobile || "https://imagenes.masoft.mx/bydtijuana/mob.jpg"}
           width={800}
           height={500}
           quality={65}

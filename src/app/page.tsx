@@ -1,13 +1,16 @@
 import { AskQuoteForm, CarComponent, MapContainer, SwiperSlider } from "@/components";
 import { carData } from "@/lib";
+import { readBanners } from "@/lib/bannersStore";
 import Image from "next/image";
 import bottom_banner from "@/assets/images/home-page/bottom-bannerPC.jpg";
 
-export default function Home() {
+export default async function Home() {
+  const customSlides = await readBanners();
+
   return (
     <main>
       <div className="relative">
-        <SwiperSlider />
+        <SwiperSlider customSlides={customSlides} />
 
         <AskQuoteForm className="max-img:hidden" />
       </div>

@@ -15,7 +15,7 @@ import banner_yuan_pro from "@/assets/images/home-page/carrusel/web_yuan-pro_jul
 import { Button } from "../";
 import { useRouter } from "next/navigation";
 
-const slides = [
+const defaultSlides = [
   { image: banner_shark, link: "/car/BYDSHARK" },
   { image: banner_dolphin_mini, link: "/car/dolphin-mini" },
   { image: banner_song_pro, link: "/car/song-pro-dmi" },
@@ -23,8 +23,12 @@ const slides = [
   { image: banner_yuan_pro, link: "/car/yuan-pro" },
 ];
 
-const SwiperSlider = () => {
+type CustomSlide = { id: string; image: string; link: string };
+
+const SwiperSlider = ({ customSlides }: { customSlides?: CustomSlide[] }) => {
   const router = useRouter();
+  const slides =
+    customSlides && customSlides.length > 0 ? customSlides : defaultSlides;
 
   return (
     <Swiper
@@ -59,7 +63,9 @@ const SwiperSlider = () => {
               fill
               className="object-cover"
               quality={70}
-              placeholder="blur"
+              placeholder={
+                typeof slide.image === "string" ? "empty" : "blur"
+              }
               priority
             />
           </div>

@@ -5,3 +5,7 @@ services:
       - "3005:3000"
     environment:
       NODE_ENV: production
+    volumes:
+      # Persisten los banners que sube el admin entre rebuilds del contenedor
+      - ./data:/app/data
+      - ./uploads:/app/uploads
